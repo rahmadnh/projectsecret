@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Gift for Nadya</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="canvas-container">
+        <div id="text-overlay">
+            <div class="line1">NADYA NAWANGWULAN</div>
+            <div class="line2">MUTH'ALIFA</div>
+        </div>
+    </div>
+
+    <video id="video-hidden" autoplay playsinline></video>
+
+    <div id="instruction-overlay">
+        <div class="glass-card">
+            <h2 id="status-text">Menyiapkan Kamera...</h2>
+            <p>Pastikan wajah dan tangan terlihat jelas</p>
+            <button id="start-btn" style="display:none;">Mulai Kejutan ✨</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
